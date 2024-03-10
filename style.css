@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html , body{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calci{
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  height: 70%;
+  width: 25%;
+  border-radius: 20px;
+  box-shadow: 6.7px 13.4px 13.4px hsla(213, 95%, 15%, 0.86);
+  border: none;
+}
+.screen{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button{
+  height: 10.3vh;
+  width: 10.3vh;
+  background: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vh;
+  border: 1px solid black;
+}
+.button:hover{
+  background: linear-gradient(-225deg, #22e2ffb1 0%, #1d8fe1a6 48%, #625eb183 100%);
+}
+input{
+  width: 90%;
+  height: 80%;
+  background-color: #09c7fb;
+background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
+
+  border-radius: 20px;
+  font-size: 8vh;
+  font-weight: 700;
+  text-align: end;
+  padding: 4vh;
+}
